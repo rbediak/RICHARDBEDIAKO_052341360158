@@ -1,0 +1,147 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.top{
+    width: auto;
+    height: 50px;
+    background-color: #3d3d3d;
+}
+.white{
+    width: auto;
+    height: 80px;
+    background-color: #ffff;
+}
+.top-logo{
+    width: 10%;
+    margin-right: 300px;
+}
+.background-div {
+    width: 400px; /* Set width */
+    height: 300px; /* Set height */
+    background-image: url('your-image-url.jpg'); /* Specify the URL of the image */
+    background-size: cover; /* Cover the entire div with the background image */
+    background-position: center; /* Center the background image */
+    /* Optionally, you can add more background properties like repeat, attachment, etc. */
+}
+ /* Custom CSS for logo positioning */
+ .navbar-brand {
+    position: relative; /* Ensure positioning context for z-index */
+    z-index: 1; /* Set z-index to 1 */
+}
+
+.top-logo{
+    position: absolute; /* Position logo absolutely */
+    top: 0; /* Align to the top of its container */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust to center properly */
+    z-index: 2; /* Set z-index higher than navbar */
+}
+.nav1{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.nav-link{
+    font-weight: bold;
+    color: #ffff !important;
+}
+#second-section{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.fist-about{
+    margin-right: 40px;
+}
+.second-about{
+    margin-right: 40px;
+}
+.third-about{
+    margin-right: 40px;
+}
+.card-header{
+    font-weight: bold;
+    font-size: large;
+}
+.card-img-top{
+    width: 20%;
+}
+footer{
+    background: #212125;
+    padding-top: 20px
+}
+.col-lg-3 ul{
+    list-style: none;
+    text-decoration: none;
+}
+.col-lg-3 ul p{
+    color: beige;
+    font-weight: bolder;
+}
+.col-lg-3 ul li{
+    color: beige;
+}
+.col-lg-3 ul li:hover{
+    color: #c6b70b;
+}
+.col-lg-3 ul li a{
+    color: beige;
+    text-decoration: none;
+}
+.col-lg-3 ul li a:hover{
+    color: #c6b70b;
+    font-size: large;
+}
+.footer-logo{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 30%;
+}
+#third-section{
+    margin-top: 10%;
+    margin-left: 38%;
+    margin-bottom: 10%;
+}
+.first-card{
+    margin-top: 40px;
+}
+third-sectionH1{
+    font-size: 60px;
+}
+#faculties{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.all-cards{
+    margin-bottom: 20px;
+}
+.faculties h1{
+    font-weight: bold;
+    margin-bottom: 10pm;
+}
+.AppliedScienceContainer {
+    width: auto;
+    height: 300px;
+    background: blue;
+}
+.Big-Header{
+    font-size: 60px;
+    font-weight: bolder;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+}
+.Big-Header:hover{
+    color: #c6620b;
+}
+.time-table{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
